@@ -17,7 +17,8 @@
 // define the pins used
 #define VS1053_RX  2 // This is the pin that connects to the RX pin on VS1053
 
-#define VS1053_RESET 9 // This is the pin that connects to the RESET pin on VS1053
+#define VS1053_RESET 6 // Photon doesn't have a D9 -- ergo must use D6
+// This is the pin that connects to the RESET pin on VS1053
 // If you have the Music Maker shield, you don't need to connect the RESET pin!
 
 // If you're using the VS1053 breakout:
