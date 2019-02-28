@@ -12,7 +12,8 @@
   BSD license, all text above must be included in any redistribution
  ****************************************************/
 
-#include <SoftwareSerial.h>
+#include <SoftwareSerial.h> // this needs to be replaced with something -- wire is already built into particle.h
+// shouldn't serial just be part of the existing code?
 
 // define the pins used
 #define VS1053_RX  2 // This is the pin that connects to the RX pin on VS1053
